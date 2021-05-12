@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.testing.class11.LoginParamTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE! - in com.testing.class11.LoginParamTest
+testLogin[用户名是ro时，执行结果预期是4-16位](com.testing.class11.LoginParamTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.testing.class11.LoginParamTest.testLogin(LoginParamTest.java:46)
+
+testLogin[用户名是时，执行结果预期是3-17位](com.testing.class11.LoginParamTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.testing.class11.LoginParamTest.testLogin(LoginParamTest.java:46)
+
